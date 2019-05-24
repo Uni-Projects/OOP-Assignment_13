@@ -12,7 +12,7 @@ public class FileFinderMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         FileFinderTest();
+        FileFinderTest();
     }
 
     public static void FileFinderTest() {
