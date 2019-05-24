@@ -18,7 +18,7 @@ public class MergeSort {
       int [] firstHalf = Arrays.copyOf(array, array.length / 2);
       sort(firstHalf);
       int [] secondHalf = Arrays.copyOfRange(array, array.length / 2, array.length);
-      sort(secondHalf);
+        sort(secondHalf);
       merge(firstHalf, secondHalf, array);
     }
   }
